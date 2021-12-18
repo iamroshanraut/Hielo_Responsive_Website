@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Header section starts here  */
+
+.header{
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+}
+
+.navigation{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding:25px 10px;
+}
+
+.navigation h6{
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navigation span{
+    font-weight: 200;
+}
+
+.navigation p{
+    float: right;
+    margin: 0;
+}
+
+.navigation p i{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.poster{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.poster p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.poster span{
+    font-weight: 600;
+}
+
+.poster hr{
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.poster h1{
+    font-size: 85px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header section Ends here  */
+
+/* twoblog sectiion starts here  */
+
+.twoblog{
+    width: 100%;
+
+}
+
+.twoblogmain{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.blogone{
+    width: 47%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.blogone img{
+    width: 100%;
+}
+
+.blogone h5{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.blogone hr{
+    width: 40%;
+}
+
+.blogone h2{
+    font-weight: 400;
+}
+
+.blogone p{
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.blogone a{
+    padding: 5px 10px;
+    border: 2px solid grey;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.blogtwo{
+    width: 47%;
+    float: right;
+    padding-bottom: 40px;
+}
+
+.blogtwo img{
+    width: 100%;
+}
+
+.blogtwo h5{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.blogtwo hr{
+    width: 40%;
+}
+
+.blogtwo h2{
+    font-weight: 400;
+}
+
+.blogtwo p{
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.blogtwo a{
+    padding: 5px 10px;
+    border: 2px solid grey;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* twoblog section ends here  */
