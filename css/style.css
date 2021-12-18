@@ -84,6 +84,7 @@ body{
 
 .twoblog{
     width: 100%;
+    background-color: #dfdfdf;
 
 }
 
@@ -171,3 +172,131 @@ body{
 }
 
 /* twoblog section ends here  */
+
+/* centerposter starts here  */
+
+.centerposter{
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.centerpostermain{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.centerpostermain h5{
+    font-size: 12.5px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.centerpostermain hr{
+    width: 50%;
+}
+
+.centerpostermain h3{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* centerposter ends here  */
+
+
+/* image section starts here  */
+
+.imgg{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #dfdfdf;
+}
+
+.imgg_main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.imgg_text{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.imgg_text h5{
+    font-size: 12.5px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.imgg_text hr{
+    width: 50%;
+}
+
+.imgg_text h3{
+
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.imgg_left{
+    width: 47%;
+    float: left;
+}
+
+.imgg_left img{
+    width: 95%;
+    border: 10px solid gray;
+    margin-bottom: 20px;
+}
+
+.imgg_right{
+    width: 47%;
+    float: right;
+}
+
+.imgg_right img{
+    width: 95%;
+    border: 10px solid gray;
+    margin-bottom: 20px;
+}
+
+/* image section ends here  */
+
+/* footer section starts here   */
+
+.footer{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0;
+}
+
+.footer_main{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+}
+
+.social_div i{
+    font-size: 25px;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.footer_main p{
+    font-size: 13px;
+}
+
+/* footer section ends here */
