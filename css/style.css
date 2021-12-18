@@ -257,7 +257,7 @@ body{
 
 .imgg_left img{
     width: 95%;
-    border: 10px solid gray;
+    border: 10px solid #fff;
     margin-bottom: 20px;
 }
 
@@ -268,7 +268,7 @@ body{
 
 .imgg_right img{
     width: 95%;
-    border: 10px solid gray;
+    border: 10px solid #fff;
     margin-bottom: 20px;
 }
 
@@ -300,3 +300,60 @@ body{
 }
 
 /* footer section ends here */
+
+
+
+/* Media query starts here  */
+
+@media only screen and (max-width:1000px){
+   .navigation{
+    padding-left:20px ;
+    padding-right: 20px;
+   } 
+
+   .twoblogmain{
+    padding-left:20px ;
+    padding-right: 20px;
+   }
+
+   .imgg_main{
+    padding-left:20px ;
+    padding-right: 20px;
+   }
+
+   .poster h1{
+       font-size: 60px;
+   }
+}
+
+@media only screen and (max-width:555px){
+    .blogone{
+        width: 100%;
+    }
+
+    .blogtwo{
+        width: 100%;
+    }
+
+    .imgg_left{
+        width: 100%;
+    }
+
+    .imgg_right{
+        width: 100%;
+    }
+
+    .centerpostermain{
+    padding-left:20px ;
+    padding-right: 20px;
+    }
+
+    .poster h1{
+    font-size: 50px;
+    }
+
+    .poster p{
+    padding-left:20px ;
+    padding-right: 20px;
+    }
+}
